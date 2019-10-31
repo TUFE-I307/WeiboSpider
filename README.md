@@ -13,12 +13,12 @@
 更新了用于爬取用户基本信息的程序`userSpider.py`, 并将原爬虫程序`Spider.py`更名为`blogSpider.py`。
 #### ▽ 2019.01.29更新
 更新了账号登录函数`weibo_login`, 更新后可以输入任意多次的验证码, 当系统不要求再次输入验证码后, ***需要在python界面中输入字符——N 程序才会继续运行***  
-![example](https://github.com/QinY-Stat/WeiboSpider/blob/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190130000120.png)  
+![example](https://github.com/TUFE-I307/WeiboSpider/blob/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190130000120.png)  
 **优：能够应对任意多次验证码输入请求  
 劣：无法自行判断是否需要再次输入验证码, 需要人工帮助判断**  
 ## 程序说明  
 ### 1.注意事项
-1. 目前该程序只能在[Firefox](http://www.firefox.com.cn/)或[Google Chrome](https://www.google.cn/chrome)上运行, 运行程序前请确保计算机已经安装了其中一款浏览器，并下载对应的浏览器驱动, **将驱动(.exe文件)与python.exe放置在同一文件夹中**, [这里](https://github.com/QinY-Stat/WeiboSpider/tree/master/Browser%20driver)给出了两种64位windows下的浏览器驱动的压缩文件, **下表给出了各系统下的浏览器驱动下载链接**  
+1. 目前该程序只能在[Firefox](http://www.firefox.com.cn/)或[Google Chrome](https://www.google.cn/chrome)上运行, 运行程序前请确保计算机已经安装了其中一款浏览器，并下载对应的浏览器驱动, **将驱动(.exe文件)与python.exe放置在同一文件夹中**, [这里](https://github.com/TUFE-I307/WeiboSpider/tree/master/Browser%20driver)给出了两种64位windows下的浏览器驱动的压缩文件, **下表给出了各系统下的浏览器驱动下载链接**  
 
     浏览器名称 | 驱动名
     :----: | :----:
